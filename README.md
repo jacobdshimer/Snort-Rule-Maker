@@ -1,1 +1,3 @@
 # Snort-Rule-Maker
+
+The idea behind this tool is to automate the creation of snort rules.  These rules would be created by providing a file with known indicators of compromise.  It will also allows users who don't know how to create rules, or might not know what every field in a rule is for, to generate rules. It will do this through one of two methods (haven't decided which one to implement).  The first would be to step through each rule and ask the user what they would like to put in that field, giving a brief intro what each field is for.  The second would be to ask the user questions and provide an interactive way for users to generate rules.
